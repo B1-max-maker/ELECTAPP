@@ -14,6 +14,8 @@ click.forEach((each)=>{
   })
 })
 
+const postButton = document.getElementById("")
+
 
 // likeSection.addEventListener(("click"), (e)=>{
 //         likeIcon.style.display = "block"
