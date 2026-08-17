@@ -1,10 +1,18 @@
-const like = document.querySelectorAll(".like")
 const likeBtn = document.querySelectorAll('.like-btn');
+const click = document.querySelectorAll('#click')
 likeBtn.forEach(btn => {
   btn.addEventListener('click', () => {
     btn.classList.toggle('liked');
   });
 });
+click.forEach((each)=>{
+  each.addEventListener(("click"),()=>{
+    click.forEach((each)=>{
+    each.classList.remove("purple")
+    })
+      each.classList.toggle("purple")
+  })
+})
 
 
 // likeSection.addEventListener(("click"), (e)=>{

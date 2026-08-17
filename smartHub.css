@@ -225,6 +225,81 @@
   50% { transform: scale(1.3); }
   100% { transform: scale(1); }
 }
+.bottomNavigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: fixed;
+    bottom: 0;
+    background: white;
+    width: 100%;
+}
+.homeContainer{
+    background: transparent;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.homeContainer p{
+    font-size:10px; 
+}
+.discoverContainer{
+     background: transparent;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.discoverContainer p{
+    font-size:10px; 
+}
+.postButton{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    color:white;
+    background:conic-gradient(
+    from 0deg, 
+     #8B5CF6,
+    #6366F1,
+    #3B82F6,
+    #8B5CF6
+    );
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+.chatContainer{
+    background: transparent;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.chatContainer p{
+    font-size: 10px;
+}
+.profileContainer{
+    background: transparent;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profileContainer p{
+    font-size: 10px;
+}
+#click.purple{
+ color:#5b3df5;
+}
 
 }
 /*
